@@ -1,5 +1,5 @@
 # Event-Driven-Programming-and-Animations
-a program that enables the user to drag the vertices of a triangle and displays the angles dynamically as the triangle shape changes
+This is a program that enables the user to drag the vertices of a triangle and displays the angles dynamically as the triangle shape changes
 
 import java.text.DecimalFormat;
 import javafx.application.Application;
@@ -14,6 +14,7 @@ import javafx.stage.Stage;
  *
  * @author OnthaitleMash
  */
+ 
 public class DisplayAngles extends Application
 {
     @Override
@@ -169,24 +170,7 @@ class ComputeAngles
         this.x3 = x3;
         this.y3 = y3;
     }
-    /*
-    public ComputeAngles(double x1, double y1) 
-    {
-        this.x1 = x1;
-        this.y1 = y1;
-    }
-        
-    public  ComputeAngles(double x2, double y2) 
-    {
-        this.x2 = x2;
-        this.y2 = y2;
-    }
-    public ComputeAngles(double x3, double y3) 
-    {
-        this.x3 = x3;
-        this.y3 = y3;
-    }
-*/
+
     public ComputeAngles(double x1, double y1, double x2, double y2, double x3, double y3, double a, double b, double c) 
     {
         this.x1 = x1;
